@@ -51,7 +51,7 @@ const Topbar = () => {
         <Home color="#FDB31D" className="w-6 h-6" />
         {/* <Image src="/wandylogo.jpg" height={20} width={80} alt="logo" /> */}
         {/* <Image src="/logo2.png" height={80} width={200} alt="logo" /> */}
-        <h1>LearnHub</h1>
+        <h1>WandyTech</h1>
       </Link>
 
       <div className="max-md:hidden w-[400px] rounded-full flex">
