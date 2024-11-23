@@ -58,7 +58,7 @@ const Topbar = () => {
 
       <div className="max-md:hidden w-[400px] rounded-full flex">
         <input
-          className="flex-grow bg-[#FFF8EB] rounded-l-full border-none outline-none text-sm pl-4 py-3"
+          className="flex-grow bg-[#FFF8EB] rounded-l-full text-black border-none outline-none text-sm pl-4 py-3"
           placeholder="Search for courses"
           value={searchInput}
           onChange={(e) => setSearchInput(e.target.value)}

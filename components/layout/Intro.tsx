@@ -11,7 +11,7 @@ export default function Intro() {
  
               We are a startup EdTech company headquartered in Lagos Nigeria and also cosultants to schools and organisations for Tech training. 
               Even with your mobile device, you can now train yourself indoors - from Coding to Accounting, Tourism & Aviation,
-              as well as preparatory courses for ICAN, UTME and SSCE exams etc. 
+              as well as in preparatory courses for ICAN, UTME and SSCE exams etc. 
             </p>
           </div> 
           <div className=" max-sm:rounded-lg sm:inline-block w-[90vw] sm:w-[45vw] h-[75vh] ">
