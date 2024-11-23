@@ -8,6 +8,32 @@ body,
   height: 100%;
 }
 
+.scroll-cover{
+    display: flex;
+    width: 50%;
+    margin: 0 50%;
+    height: 40px;
+}
+
+.scrolling-text-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+}
+
+.scrolling-text-container span{ 
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    padding: 8px 20px;
+    background: red;
+    color: white;
+    font-weight: 600;
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+};
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
