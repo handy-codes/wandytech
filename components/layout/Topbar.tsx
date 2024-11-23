@@ -46,12 +46,14 @@ const Topbar = () => {
   };
 
   return (
-    <div className="flex w-full mx-auto content-center justify-between sticky z-50 top-0 bg-blue-700 text-white font-bold text-2xl items-center p-4">
+    // <div className="flex w-full mx-auto content-center justify-between sticky z-50 top-0 bg-[#003E8F] text-white font-bold text-2xl items-center p-4">
+    <header className="sticky z-50 top-0 fixer">
+    <div className="flex w-full mx-auto content-center justify-between  bg-blue-700 h-[80px] text-white font-bold text-2xl items-center p-4">
       <Link className="flex items-center content-center gap-4" href="/">
-        <Home color="#FDB31D" className="w-6 h-6" />
+        <Home color="#FDB31D" className="w-6 h-6 sm:w-7 sm:h-7" />
         {/* <Image src="/wandylogo.jpg" height={20} width={80} alt="logo" /> */}
         {/* <Image src="/logo2.png" height={80} width={200} alt="logo" /> */}
-        <h1>WandyTech</h1>
+        <h1 className="md:text-[30px]">WandyTech</h1>
       </Link>
 
       <div className="max-md:hidden w-[400px] rounded-full flex">
@@ -76,7 +78,7 @@ const Topbar = () => {
             <Link
               href={route.path}
               key={route.path}
-              className="text-sm font-bold hover:text-[#FDAB04]"
+              className="text-sm font-bold sm:text-xl hover:text-[#FDAB04]"
             >
               {route.label}
             </Link>
@@ -86,7 +88,7 @@ const Topbar = () => {
         <div className="z-20 sm:hidden">
           <Sheet>
             <SheetTrigger>
-              <Menu color="#FDB31D" className="w-9 h-9" />
+              <Menu color="#FDB31D" className="w-8 h-8 sm:w-9 sm:h-9" />
             </SheetTrigger>
             <SheetContent className="flex flex-col gap-4">
               <div className="flex flex-col gap-4">
@@ -94,7 +96,7 @@ const Topbar = () => {
                   <Link
                     href={route.path}
                     key={route.path}
-                    className="text-2xl font-medium hover:text-[#FDAB04]"
+                    className="text-[22px] font-medium hover:text-[#FDAB04]"
                   >
                     {route.label}
                   </Link>
@@ -127,6 +129,7 @@ const Topbar = () => {
         )}
       </div>
     </div>
+    </header>
   );
 };
 

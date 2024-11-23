@@ -6,12 +6,12 @@ export default function Intro() {
     <div className='p-8'>
         <div className="flex-row-reverse flex flex-wrap max-sm:gap-4 justify-center max-w-7xl mx-auto">
           <div className=" bg-[#003B65] p-6 w-[90vw] sm:w-[45vw] h-[75vh] flex sm:content-center flex-col sm:items-center sm:justify-center">
-            <h1 className='text-white text-2xl font-medium sm:text-3xl'>Welcome to WandyTech</h1>
+            <h1 className='text-white text-[21px] font-medium sm:text-3xl'>Welcome to WandyTech</h1>
             <p className='text-[#ABBECC] sm:text-justify pt-3 pb-3 text-[18px]'>
  
-              WandyTech is a startup EdTech headquartered in Lagos Nigeria. We are cosultants to organisations for Tech training. 
-              With your mobile device, you can now train yourself indoors - from coding to accounting,
-              as well as ICAN, JAMB and WAEC preps and so much more! 
+              We are a startup EdTech company headquartered in Lagos Nigeria and also cosultants to schools and organisations for Tech training. 
+              Even with your mobile device, you can now train yourself indoors - from Coding to Accounting, Tourism & Aviation,
+              as well as preparatory courses for ICAN, UTME and SSCE exams etc. 
             </p>
           </div> 
           <div className=" max-sm:rounded-lg sm:inline-block w-[90vw] sm:w-[45vw] h-[75vh] ">
