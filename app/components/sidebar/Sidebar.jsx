@@ -47,7 +47,7 @@ const Sidebar = () => {
             <span className="sidebarListItemText">Feed</span>
           </li>
         </ul>
-        <button className="mb-4 mt-2 border  rounded-md px-7 text-sm py-2 bg-[#F0F0F0] font-semibold">Show More</button>
+        <button className="mb-4 mt-2 border-2 border-black rounded-md px-10 text-sm py-2 bg-[#F0F0F0] font-semibold">Show More</button>
         <hr className="sidebarHr"/>
         <ul className="mb-3 mt-6">
           {Users.map(u=>(
