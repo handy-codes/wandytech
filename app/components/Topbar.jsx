@@ -10,15 +10,15 @@ const Topbar = () => {
       <nav className="flex justify-between h-full w-full px-6 items-center text-white">
         <div className="topbarLeft">Owosocial</div>
         <div className="topbarCenter">
-          <div className="searchbar">
-            <Search className="searchIcon" />
+          <div className="searchbar h-[40px] bg-[#fff] flex items-center rounded-full px-4"> 
+            <Search className="searchIcon text-black mr-2" />
             <input
               placeholder="Search for friends, posts or videos"
-              className="searchInput"
+              className="searchInput w-full px-2 focus:outline-none bg-transparent"
             />
           </div>
         </div>
-        <div className="flex gap-6">
+        <div className="flex  gap-6">
           <div className="flex space-x-4 items-center text-white">
             <h2>HOME</h2>
             <h2>PROFILE</h2>

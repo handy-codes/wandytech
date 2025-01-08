@@ -1,11 +1,42 @@
-import React from 'react'
+import React from "react";
+import Image from "next/image";
+import { Users } from "../../dummyData";
+import Online from "./Online";
 
 const Rightbar = () => {
   return (
-    <div className='w-[30vw] bg-yellow-300'>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae repellat ullam corrupti iusto neque, quaerat natus accusantium eaque nulla. Numquam, sapiente voluptas nulla non et ratione doloribus accusamus repudiandae a mollitia temporibus enim amet culpa incidunt ab commodi. Cumque totam esse dignissimos ullam at repudiandae fugit facere dolorem? Quae fugiat quibusdam tempore vero? Asperiores incidunt perspiciatis, facilis nulla nemo porro, ipsum ratione fugiat harum qui consequatur ea eveniet sit consequuntur necessitatibus fugit suscipit quidem eos illum possimus nisi corrupti nam! Numquam, illo pariatur eaque ea libero eius quidem hic labore nam quaerat suscipit animi debitis fugit in itaque. Laudantium blanditiis, suscipit iste neque dolores voluptate consequatur magni cumque ratione quam reiciendis ea veniam animi nostrum aliquam a omnis? Libero esse numquam aperiam vitae, sit non officia unde ab? Libero, quis voluptatibus impedit non, molestiae temporibus eligendi nesciunt qui inventore minus consequatur nemo ipsam itaque nulla necessitatibus fugiat, deleniti quisquam nostrum ex facilis ratione. Quo quisquam eius quam mollitia incidunt earum consequuntur accusantium ipsa fugiat explicabo distinctio cumque officia accusamus ab vitae, facere, consectetur minus quidem eum. Fugiat quae tempore officia aut ullam qui obcaecati necessitatibus excepturi ipsa, soluta, quaerat totam explicabo sed, modi sit quam dolorum neque. Mollitia unde vel quo magnam et! Nesciunt exercitationem esse voluptas quas, nulla odit impedit facilis voluptates laudantium saepe officia ullam doloremque adipisci autem, fugiat, vitae blanditiis quam asperiores sed! Delectus, sunt nam consectetur culpa saepe commodi consequuntur magni. Nemo exercitationem deserunt, voluptatum asperiores voluptatem nulla ipsam sunt laboriosam animi minima ab ratione, dolore dicta a placeat possimus quo ducimus numquam cupiditate. Tempora, hic enim ratione ut distinctio reprehenderit placeat, quod quasi eum error assumenda voluptatum totam dicta consequatur ipsa iure tempore rerum officia sapiente doloremque recusandae, veniam incidunt facere quam? Illum, quidem! Sapiente totam soluta repellat dignissimos dolor, cupiditate maiores officiis eius nobis repudiandae cum aliquid similique voluptatem. Illum consequatur illo nostrum reprehenderit placeat, vel perferendis quisquam sapiente voluptatibus fugit officia ea ipsa aut error, ducimus eum modi necessitatibus soluta optio laboriosam nemo labore. Enim blanditiis quia saepe quis recusandae provident dolorem fugiat quae ad est eum omnis incidunt ducimus suscipit repellendus quam, veritatis minima fugit repudiandae ratione veniam. Debitis eligendi id deserunt similique maiores possimus, libero, animi omnis dolore quos praesentium. Ad consequuntur atque rem vel, beatae a quibusdam earum esse quia incidunt accusantium quis, vero natus perspiciatis pariatur laborum numquam doloribus corporis facilis, mollitia quas! Facilis blanditiis accusamus possimus enim nobis asperiores aut incidunt architecto voluptate assumenda earum, a alias ullam autem repellat, mollitia odio? Sint quis alias libero ab! Officiis reprehenderit cum non perspiciatis quidem, possimus voluptas. Aut totam quo magni modi eos ex vero commodi, magnam culpa sunt rerum maxime, illo placeat iste voluptas aperiam fuga consequuntur consectetur odit atque deserunt esse odio. Quis explicabo voluptatum nam earum totam, tempore magnam ea cum ut sit autem est doloribus quas tenetur atque asperiores, esse excepturi cumque commodi? Beatae officia iure quae minima deserunt minus exercitationem deleniti repellat alias commodi? Porro sapiente, quod ab culpa esse minima reiciendis rerum facere provident?</p>
+    <div className="rightbar w-[30vw] overflow-hidden">
+      <div className="rightbarWrapper pt-[20px] pr-[20px]">
+        <div className="birthdayContainer flex items-center">
+          <Image
+            src="/assets/team/hennessyad.jpg"
+            alt="hennessyad"
+            width={40}
+            height={40}
+            className="birthdayImg w-[40px] h-[40px] mr-[10px]"
+          />
+          <span className="birthdayText text-[15px]">
+            <b>Agwabunma Owo </b> and <b>3 other friend</b> like this
+          </span>
+        </div>
+        <div className="hennessy">
+          <Image
+            src="/assets/team/hennessyad.jpg"
+            alt="hennessy"
+            width={500}
+            height={500}
+            className="rightbarAd w-full rounded-md object-contain my-[30px]"
+          />
+        </div>
+        <h4 className="rightbarTitle mb-[20px]">Online Friends</h4>
+        <ul className="rightbarFriendList">
+          {Users.map((u) => (
+            <Online key={u.id} user={u} />
+          ))}
+        </ul>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Rightbar
+export default Rightbar;

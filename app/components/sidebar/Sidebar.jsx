@@ -2,8 +2,7 @@ import React from 'react'
 import { Bookmark, Chat, Event, Group, HelpOutline, PlayCircleFilledOutlined, RssFeed, School, WorkOutline } from "@mui/icons-material"
 import {Users} from "../../../dummyData";
 import CloseFriend from "../CloseFriend";
-import './sidebar.css'
-
+import "./sidebar.css"
 
 const Sidebar = () => {
   return (
