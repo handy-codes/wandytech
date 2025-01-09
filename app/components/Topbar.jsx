@@ -6,9 +6,9 @@ import Link from "next/link";
 
 const Topbar = () => {
   return (
-    <header className="h-[65px] bg-[#1877F2] sticky top-0 z-50">
+    <header className="h-[65px] bg-[#1877F2] font-semibold sticky top-0 z-50">
       <nav className="flex justify-between h-full w-full px-6 items-center text-white">
-        <div className="topbarLeft">Owosocial</div>
+        <div><h1 className="text-3xl">Owosocial</h1></div>
         <div className="topbarCenter w-[30vw]">
           <div className="searchbar h-[40px] bg-[#fff] flex items-center rounded-full px-4">
             <Search className="searchIcon text-black mr-2" />
@@ -21,8 +21,12 @@ const Topbar = () => {
         </div>
         <div className="flex  gap-6">
           <div className="flex space-x-4 items-center text-white">
-            <h2>HOME</h2>
-            <h2>PROFILE</h2>
+            <Link href="/">
+              <h2>HOME</h2>
+            </Link>
+            <Link href="/profile">
+              <h2>PROFILE</h2>
+            </Link>
           </div>
           <div className="flex space-x-4 items-center text-white">
             <div className="topbarIconItem relative">
@@ -43,13 +47,15 @@ const Topbar = () => {
                 2
               </span>
             </div>
-            <Image
-              src="/assets/team/girl.png"
-              alt="profile logo"
-              width={40}
-              height={40}
-              className="rounded-full object-cover"
-            />
+            <Link href="/profile">
+              <Image
+                src="/assets/team/girl.png"
+                alt="profile logo"
+                width={40}
+                height={40}
+                className="rounded-full object-cover"
+              />
+            </Link>
           </div>
         </div>
       </nav>
