@@ -20,7 +20,7 @@ const Rightbar = () => {
             <b>Agwabunma Owo </b> and <b>3 other friend</b> like this
           </span>
         </div>
-        <div className="overflow-hidden">
+        <div className="">
           <Image
             src="/assets/team/hennessyad.jpg"
             alt="hennessy"
