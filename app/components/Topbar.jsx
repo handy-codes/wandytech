@@ -9,12 +9,13 @@ const Topbar = () => {
     <header className="h-[65px] bg-[#1877F2] sticky top-0 z-50">
       <nav className="flex justify-between h-full w-full px-6 items-center text-white">
         <div className="topbarLeft">Owosocial</div>
-        <div className="topbarCenter">
-          <div className="searchbar h-[40px] bg-[#fff] flex items-center rounded-full px-4"> 
+        <div className="topbarCenter w-[30vw]">
+          <div className="searchbar h-[40px] bg-[#fff] flex items-center rounded-full px-4">
             <Search className="searchIcon text-black mr-2" />
             <input
+              type="text"
               placeholder="Search for friends, posts or videos"
-              className="searchInput w-full px-2 focus:outline-none bg-transparent"
+              className=" w-full px-2 focus:outline-none  text-black bg-transparent"
             />
           </div>
         </div>
