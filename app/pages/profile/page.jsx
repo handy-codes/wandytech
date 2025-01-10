@@ -10,12 +10,14 @@ const page = () => {
     <>
       <Topbar />
       <div className="flex">
-        <Sidebar />
-        <div className="w-[75vw]">
-          <div className="w-full">
+        <div className="hidden sm:block md:w-[25vw]">
+         <Sidebar />
+        </div>
+        <div className="w-[100vw]">
+          <div className="w-[100vw] md:w-[75vw]">
             <div className="h-[320px] w-full relative">
               <Image
-                className="w-[75vw] h-[250px] object-cover aspect-auto"
+                className="w-[100vw] h-[250px] object-cover aspect-auto"
                 src="/assets/team/avatar.jpg"
                 width={2500}
                 height={250}
@@ -37,8 +39,12 @@ const page = () => {
             </div>
           </div>
           <div className="flex">
-            <Feed />
-            <Rightbarprofile />
+            <div className="w-[100vw] md:w-[45vw]">
+             <Feed />
+            </div>
+            <div className="hidden md:block md:w-[30vw]">
+             <Rightbarprofile />
+            </div>
           </div>
         </div>
       </div>
