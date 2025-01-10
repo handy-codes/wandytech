@@ -1,32 +1,32 @@
 export const Users = [
     {
         id:1,
-        profilePicture: "/assets/team/team-4.jpg",
+        profilePicture: "/assets/team/one.webp",
         username: "Obi Nick",    
     },
     {
         id:2,
-        profilePicture: "/assets/team/3.png",
+        profilePicture: "/assets/team/two.webp",
         username: "Chinwendu Anaba",    
     },
     {
         id:3,
-        profilePicture: "/assets/team/4.jpg",
+        profilePicture: "/assets/team/three.webp",
         username: "Hills Smith",    
     },
     {
         id:4,
-        profilePicture: "/assets/team/4.png",
+        profilePicture: "/assets/team/four.webp",
         username: "John Ekeh",    
     },
     {
         id:5,
-        profilePicture: "/assets/team/3.jpg",
+        profilePicture: "/assets/team/five.webp",
         username: "Ebere Orji",    
     },
     {
         id:6,
-        profilePicture: "/assets/team/peter.jpg",
+        profilePicture: "/assets/team/six.webp",
         username: "Peter Osifo",    
     },
     {
@@ -36,22 +36,22 @@ export const Users = [
     },
     {
         id:8,
-        profilePicture: "/assets/team/team-1.jpg",
+        profilePicture: "/assets/team/eight.jpg",
         username: "Ife Oma",    
     },
     {
         id:9,
-        profilePicture: "/assets/team/team-2.jpg",
+        profilePicture: "/assets/team/nine.webp",
         username: "Steve Hans",    
     },
     {
         id:10,
-        profilePicture: "/assets/team/team-3.jpg",
+        profilePicture: "/assets/team/ten.webp",
         username: "Little Johnny",    
     },
     {
         id:11,
-        profilePicture: "/assets/team/team-4.jpg",
+        profilePicture: "/assets/team/eleven.jpeg",
         username: "Dow Jones",    
     },
 ];

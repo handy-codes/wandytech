@@ -22,7 +22,7 @@ const page = () => {
                 alt="pix"
               />
               <Image
-                className="w-[160px] h-[160px] rounded-full absolute top-[150px] left-0 right-0 border-4 border-white m-auto"
+                className="w-[160px] h-[160px] rounded-full absolute top-[160px] left-0 right-0 border-4 border-white m-auto"
                 src="/assets/team/girl.png"
                 width={160}
                 height={160}

@@ -26,7 +26,7 @@ export default function Rightbarprofile() {
           <div className="flex flex-wrap mr-4 mt-4 justify-between">
             <div className="flex flex-col items-center mb-[20px] cursor-pointer">
               <Image
-                src="/assets/team/4.jpg"
+                src="/assets/team/eleven.jpeg"
                 alt="someone"
                 width={100}
                 height={100}      
@@ -36,7 +36,7 @@ export default function Rightbarprofile() {
             </div>
             <div className="flex flex-col items-center mb-[20px] cursor-pointer">
               <Image
-                src="/assets/team/team-.jpg"
+                src="/assets/team/one.webp"
                 alt="someone"
                 width={100}
                 height={100}     
@@ -46,7 +46,7 @@ export default function Rightbarprofile() {
               </div>
               <div className="flex flex-col items-center mb-[20px] cursor-pointer">
               <Image
-                src="/assets/team/team-1.jpg"
+                src="/assets/team/five.webp"
                 width={100}
                 height={100}      
                 alt="someone"
@@ -56,7 +56,7 @@ export default function Rightbarprofile() {
             </div>
             <div className="flex flex-col items-center mb-[20px] cursor-pointer">
               <Image
-                src="/assets/team/team-3.jpg"
+                src="/assets/team/six.webp"
                 width={100}
                 height={100}     
                 alt="someone"
@@ -66,7 +66,7 @@ export default function Rightbarprofile() {
             </div>
             <div className="flex flex-col items-center mb-[20px] cursor-pointer">
               <Image
-                src="/assets/team/3.png"
+                src="/assets/team/ten.webp"
                 width={100}
                 height={100}      
                 alt="someone"
@@ -76,7 +76,7 @@ export default function Rightbarprofile() {
             </div>
             <div className="flex flex-col items-center mb-[20px] cursor-pointer">
               <Image
-                src="/assets/team/3.jpg"
+                src="/assets/team/nine.webp"
                 width={100}
                 height={100}      
                 alt="someone"
@@ -86,7 +86,7 @@ export default function Rightbarprofile() {
             </div>
             <div className="flex flex-col items-center mb-[20px] cursor-pointer">
               <Image
-                src="/assets/team/2.jpg"
+                src="/assets/team/three.webp"
                 width={100}
                 height={100}      
                 alt="someone"
