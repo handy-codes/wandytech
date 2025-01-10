@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Share() {
   return (
-    <div className="share w-[100%] h-[170px] rounded-md shadow-md">
+    <div className="share hidden sm:block w-[100%] h-[170px] rounded-md shadow-md">
         <div className="p[10px]">
             <div className="pl-4 pt-4 flex items-center">
                 <Image className="w-[50px] h-[50px] rounded-full object-cover mr-[10px]" src="/assets/team/girl.png" alt="a lady" width={50}

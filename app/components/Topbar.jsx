@@ -7,12 +7,13 @@ import Link from "next/link";
 const Topbar = () => {
   return (
     <header className="h-[65px] bg-[#1877F2] font-semibold sticky top-0 z-50">
-      <nav className="flex justify-between h-full w-full px-6 items-center text-white">
+      <nav className="flex justify-between h-full w-full px-4 sm:p-6 items-center text-white">
         <Link href="/">
-          <h1 className="text-2xl">Owosocial</h1>
+          <h1 className="sm:block text-2xl mr-3">MeX</h1>
+          {/* <h1 className="text-2xl mr-3 p-2 w-8 h-8 flex items-center justify-center rounded-full bg-white text-blue-600">w</h1> */}
         </Link>
         <div className="w-[30vw]">
-          <div className="h-[40px] bg-[#fff] flex items-center rounded-full px-4">
+          <div className="h-[40px] bg-[#fff] hidden md:flex items-center rounded-full px-4">
             <Search className="text-black mr-2" />
             <input
               type="text"
@@ -22,7 +23,7 @@ const Topbar = () => {
           </div>
         </div>
         <div className="flex gap-6">
-          <div className="flex space-x-4 items-center text-white">
+          <div className="flex gap-4 items-center text-white">
             <Link href="/">
               <h2>HOME</h2>
             </Link>
@@ -30,7 +31,7 @@ const Topbar = () => {
               <h2>PROFILE</h2>
             </Link>
           </div>
-          <div className="flex space-x-4 items-center text-white">
+          <div className="hidden sm:flex gap-2 sm:gap-4 items-center text-white">
             <div className="relative">
               <Person sx={{ fontSize: 32 }} />
               <span className="text-xs flex items-center justify-center absolute -top-[5px] -right-[5px] bg-[red] w-[15px] h-[15px] rounded-full">
@@ -49,13 +50,13 @@ const Topbar = () => {
                 2
               </span>
             </div>
-            <Link href="/pages/profile">
+            <Link href="/pages/profile" className="cursor-pointer ml-4">
               <Image
                 src="/assets/team/girl.png"
                 alt="profile logo"
-                width={40}
-                height={40}
-                className="rounded-full object-cover"
+                width={32}
+                height={32}
+                className="w-[32px] h-[32px] rounded-full object-cover"
               />
             </Link>
           </div>

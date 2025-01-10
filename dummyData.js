@@ -31,7 +31,7 @@ export const Users = [
     },
     {
         id:7,
-        profilePicture: "/assets/team/team-.jpg",
+        profilePicture: "/assets/team/girl.png",
         username: "Edu Brasil",    
     },
     {

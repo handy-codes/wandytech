@@ -7,7 +7,7 @@ import Post from "./Post";
 
 export default function Feeds() {
   return (
-    <div className="w-[45vw] p-5 py-6">
+    <div className="w-[100vw] md:w-[75vw] lg:w-[45vw] p-5 py-6">
       <div className="">
         <Share/>
         {Posts.map(p=>(

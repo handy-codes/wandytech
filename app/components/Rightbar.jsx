@@ -6,7 +6,7 @@ import Online from "./Online";
 
 const Rightbar = () => {
   return (
-    <div className="w-[30vw] font-semibold overflow-hidden">
+    <div className="hidden lg:block w-[30vw] font-semibold overflow-hidden">
       <div className="pt-[20px] pr-[20px]">
         <div className="flex items-center">
           <Image

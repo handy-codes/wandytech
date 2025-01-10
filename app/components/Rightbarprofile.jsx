@@ -4,7 +4,7 @@ export default function Rightbarprofile() {
   const ProfileRightbar = () => {
     return (
       <>
-        <div className="bigcover mt-4 w-[30vw]">
+        <div className="bigcover hidden lg:block mt-4 lg:w-[25vw]">
           <h4 className="font-semibold text-lg">User information</h4>
           <div className="flex flex-col gap-2 mt-3">
             <div className="flex gap-2 items-center">

@@ -7,7 +7,7 @@ import "./sidebar.css"
 
 const Sidebar = () => {
   return (
-    <div className="sidebar w-[25vw] px-5 py-3 font-semibold">
+    <div className="sidebar hidden md:block w-[25vw] px-5 py-3 font-semibold">
       <div className="">
         <ul className="">
           <li className="flex items-center my-4 gap-4">
