@@ -3,14 +3,14 @@ import Image from "next/image"
 
 export default function Share() {
   return (
-    <div className="share hidden sm:block w-[100%] h-[170px] rounded-md shadow-md">
+    <div className="share w-[100%] h-[170px] rounded-md shadow-md">
         <div className="p[10px]">
             <div className="pl-4 pt-4 flex items-center">
                 <Image className="w-[50px] h-[50px] rounded-full object-cover mr-[10px]" src="/assets/team/girl.png" alt="a lady" width={50}
               height={50} />
-                <input placeholder="What's in your mind Ada Abia?" className="shareInput focus:outline-none w-full"/>
+                <input placeholder="What's in your mind Ada Abia?" className="shareInput focus:outline-none w-full font-semibold"/>
             </div>
-            <hr className="m-[20px]" />
+            <hr className="m-[20px]  border-black" />
             <form className="flex items-center justify-between" >
                 <div className="flex items-center px-6 gap-2">
                     <label htmlFor="file" className="file flex items-center mr-[15px] cursor-pointer">
