@@ -10,7 +10,7 @@ export default function Share() {
               height={50} />
                 <input placeholder="What's in your mind Ada Abia?" className="shareInput focus:outline-none w-full font-semibold"/>
             </div>
-            <hr className="m-[20px]  border-black" />
+            <hr className="m-[20px] border-black" />
             <form className="flex items-center justify-between" >
                 <div className="flex items-center px-6 gap-2">
                     <label htmlFor="file" className="file flex items-center mr-[15px] cursor-pointer">

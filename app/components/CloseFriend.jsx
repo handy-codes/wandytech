@@ -8,9 +8,9 @@ export default function CloseFriend({ user }) {
         width={32}
         height={32}
         alt="my people"
-        className="w-[32x] h-[32px] rounded-full object-cover"
+        className="w-[32x] h-[32px] rounded-full cursor-pointer object-cover"
       />
-      <span className="font-semibold">{user.username} </span>
+      <span className="font-semibold">{user.username}</span>
     </li>
   );
 }

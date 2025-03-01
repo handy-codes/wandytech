@@ -10,39 +10,39 @@ const Sidebar = () => {
     <div className="sidebar hidden md:block w-[25vw] px-5 py-3 font-semibold">
       <div className="">
         <ul className="">
-          <li className="flex items-center my-4 gap-4">
+          <li className="flex items-center my-4 gap-4 cursor-pointer">
             <RssFeed sx={{ fontSize: 25 }}/>
             <span className="">Chats</span>
           </li>
-          <li className="flex items-center my-4 gap-4">
+          <li className="flex items-center my-4 gap-4 cursor-pointer">
             <Chat sx={{ fontSize: 25 }}/>
             <span className="">Videos</span>
           </li>
-          <li className="flex items-center my-4 gap-4">
+          <li className="flex items-center my-4 gap-4 cursor-pointer">
             <PlayCircleFilledOutlined sx={{ fontSize: 25 }}/>
             <span className="">Groups</span>
           </li>
-          <li className="flex items-center my-4 gap-4">
+          <li className="flex items-center my-4 gap-4 cursor-pointer">
             <Group sx={{ fontSize: 25 }}/>
             <span className="">Bookmarks</span>
           </li>
-          <li className="flex items-center my-4 gap-4">
+          <li className="flex items-center my-4 gap-4 cursor-pointer">
             <Bookmark sx={{ fontSize: 25 }}/>
             <span className="">Questions</span>
           </li>
-          <li className="flex items-center my-4 gap-4">
+          <li className="flex items-center my-4 gap-4 cursor-pointer">
             <HelpOutline sx={{ fontSize: 25 }}/>
             <span className="">Jobs</span>
           </li>
-          <li className="flex items-center my-4 gap-4">
+          <li className="flex items-center my-4 gap-4 cursor-pointer">
             <WorkOutline sx={{ fontSize: 25 }}/>
             <span className="">Events</span>
           </li>
-          <li className="flex items-center my-4 gap-4">
+          <li className="flex items-center my-4 gap-4 cursor-pointer">
             <School sx={{ fontSize: 25 }}/>
             <span className="">Courses</span>
           </li>
-          <li className="flex items-center my-4 gap-4">
+          <li className="flex items-center my-4 gap-4 cursor-pointer">
             <Event sx={{ fontSize: 25 }}/>
             <span className="">Feed</span>
           </li>

@@ -36,7 +36,7 @@ export default function Post({ post }) {
         <div className="my-[20px]">
           <span className="">{post?.desc}</span>
             <Image
-              className="w-full max-h-[500px] mt-[20px] object-contain"
+              className="w-full cursor-pointer max-h-[500px] mt-[20px] object-cover"
               src={post.photo}
               alt="lagos_rail"
               width={500}

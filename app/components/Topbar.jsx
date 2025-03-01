@@ -10,7 +10,6 @@ const Topbar = () => {
       <nav className="flex justify-between h-full w-full px-4 sm:p-6 items-center text-white">
         <Link href="/">
           <h1 className="sm:block text-2xl mr-3">MeX</h1>
-          {/* <h1 className="text-2xl mr-3 p-2 w-8 h-8 flex items-center justify-center rounded-full bg-white text-blue-600">w</h1> */}
         </Link>
         <div className="w-[30vw]">
           <div className="h-[40px] bg-[#fff] hidden md:flex items-center rounded-full px-4">
@@ -32,19 +31,19 @@ const Topbar = () => {
             </Link>
           </div>
           <div className="hidden sm:flex gap-2 sm:gap-4 items-center text-white">
-            <div className="relative">
+            <div className="relative cursor-pointer">
               <Person sx={{ fontSize: 32 }} />
               <span className="text-xs flex items-center justify-center absolute -top-[5px] -right-[5px] bg-[red] w-[15px] h-[15px] rounded-full">
                 1
               </span>
             </div>
-            <div className="relative">
+            <div className="relative cursor-pointer">
               <Chat />
               <span className="text-xs flex items-center justify-center absolute -top-[5px] -right-[5px] bg-[red] w-[15px] h-[15px] rounded-full">
                 3
               </span>
             </div>
-            <div className="relative">
+            <div className="relative cursor-pointer">
               <Notifications />
               <span className="text-xs flex items-center justify-center absolute -top-[5px] -right-[5px] bg-[red] w-[15px] h-[15px] rounded-full">
                 2

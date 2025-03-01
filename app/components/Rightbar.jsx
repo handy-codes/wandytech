@@ -1,5 +1,5 @@
-
 import React from "react";
+
 import Image from "next/image";
 import { Users } from "../../dummyData";
 import Online from "./Online";
